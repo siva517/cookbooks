@@ -1,0 +1,5 @@
+include_recipe 'selinux::permissive'
+include_recipe 'awesome_customers_rhel::firewall'
+include_recipe 'awesome_customers_rhel::web_user'
+include_recipe 'awesome_customers_rhel::web'
+include_recipe 'awesome_customers_rhel::database'
